@@ -32,5 +32,8 @@ jobs:
       run: git remote set-url origin https://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@github.com/HR30-coder/test_action.git
       env:
         GITHUB_TOKEN: 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
+
+    - run: git config --global user.name "HR30-coder"
+    - run: git config --global user.token "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"
     
     - run : npm run deploy
