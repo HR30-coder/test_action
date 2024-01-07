@@ -4,8 +4,9 @@ import {mount as marketingMount} from "marketing/marketIndex";
 
 
 export default () => {
-
     const marketDivRef = useRef(null);
+
+    const a = 100;
 
     useEffect(() => {
         if (marketDivRef.current) {
