@@ -30,5 +30,7 @@ jobs:
       
     - name: Deploy with gh-pages
       run: git remote set-url origin https://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@github.com/HR30-coder/test_action.git
+      env:
+        GITHUB_TOKEN: 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
     
     - run : npm run deploy
