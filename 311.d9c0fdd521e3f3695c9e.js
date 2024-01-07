@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcontainer=self.webpackChunkcontainer||[]).push([[311],{311:(e,n,r)=>{r.r(n);var t=r(271),u=r.n(t),c=r(650),o=r.n(c),l=r(41);const a=function(){var e=(0,t.useRef)(null);return(0,t.useEffect)((function(){e.current&&(0,l.mount)(e.current)})),u().createElement("div",{ref:e})};o().render(u().createElement(a,null),document.querySelector("#root"))}}]);
