@@ -27,4 +27,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install --force
+      
+    - name: Deploy with gh-pages
+      run: git remote set-url origin https://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@github.com/HR30-coder/test_action.git
+      env:
+        GITHUB_TOKEN: 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
+    
     - run : npm run deploy
