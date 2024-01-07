@@ -32,7 +32,7 @@ jobs:
 
     - name: Deploy with gh-pages
       run: |
-         git remote set-url origin https://git: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@github.com/HR30-coder/mfp-container
+         git remote set-url origin https://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@github.com/HR30-coder/test_action
          npx gh-pages -d dist -u "github-actions-bot <support+actions@github.com>"
       env:
-         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+         GITHUB_TOKEN: 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
